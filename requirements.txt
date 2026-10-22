@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+pdfplumber
+pydantic
+python-dotenv
+plotly
+pytest
+openpyxl
+pytesseract
+PyMuPDF
+docling

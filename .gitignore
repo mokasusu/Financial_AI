@@ -1,0 +1,125 @@
+# =============================================================================
+# FINANCIAL_AI - GITIGNORE
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 1. Byte-compiled / Optimized / DLL files
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# C extensions & Packaging artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------------------------------------------------------------------
+# 2. Virtual Environments
+# -----------------------------------------------------------------------------
+.venv/
+.venv*/
+venv/
+venv*/
+ENV/
+env/
+env*/
+
+# -----------------------------------------------------------------------------
+# 3. Security, Secrets & Environment Variables (CRITICAL)
+# -----------------------------------------------------------------------------
+# Tuyệt đối không commit API keys, tokens hoặc secrets (Quy định 3.1 AGENTS.md)
+.env
+.env.local
+.env.*.local
+.env.backup
+
+# Cho phép commit file mẫu cấu hình không chứa giá trị thực
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# -----------------------------------------------------------------------------
+# 4. Testing, Coverage & Linters
+# -----------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# -----------------------------------------------------------------------------
+# 5. IDEs, Editors & AI Agent Artifacts
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Antigravity / Gemini temporary scratch files & agent workspace
+.tempmediaStorage/
+.agents/
+
+# -----------------------------------------------------------------------------
+# 6. Operating System Artifacts
+# -----------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+
+# -----------------------------------------------------------------------------
+# 7. Project Runtime Data, Uploads, Exports & Reports
+# -----------------------------------------------------------------------------
+# Bỏ qua dữ liệu BCTC nhạy cảm và file tạm phát sinh trong quá trình chạy
+data/uploads/*
+!data/uploads/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+exports/*
+!exports/.gitkeep
+
+reports/*
+!reports/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
