@@ -7,6 +7,9 @@ Tất cả các thay đổi đáng chú ý của dự án **Financial_AI** sẽ 
 
 ## [Unreleased]
 
+### Tài liệu & Hướng dẫn (Documentation)
+- Cập nhật toàn diện [README.md](file:///c:/Users/admin/Desktop/A_Ky1_Nam4/Cong_nghe_tai_chinh/Financial_AI/README.md) chi tiết: tổng quan dự án, bảng chi tiết 13 công nghệ và tác dụng, cơ chế xử lý tệp PDF đa tầng (Digital/Scan/Hybrid và Docling Single-Pass), luồng dữ liệu toàn hệ thống (Sequence Diagram), hướng dẫn thao tác 7 bước người dùng, và hướng dẫn cài đặt khởi chạy chi tiết.
+
 ### Kế hoạch tiếp theo (Planned)
 - Tối ưu hóa hiệu năng trích xuất hàng loạt và giao diện trực quan biểu đồ xu hướng.
 
